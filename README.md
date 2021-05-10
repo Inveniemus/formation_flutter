@@ -32,5 +32,6 @@
 | Contexte | Chapitre | Sujets abordés | Temps |
 |:------:|:-------- | -------------- |:-----:|
 | Flutter | L'application par défaut | Visite guidée | 30 min |
-| | | Les bonnes pratiques du theming | 10 min |
+| | | Les bonnes pratiques du theming | 30 min |
+| | | La méthode setState des StatefulWidgets | 30 min |
 
