@@ -3,12 +3,12 @@
 ## Jour 1 - Introduction au langage
 | Contexte | Chapitre | Sujets abordés | Temps |
 |:------:|:-------- | -------------- |:-----:|
-| Introduction | Pimp mon système | **_Installation Flutter - Intégration IDE - binaires - Analyzers_** | _1 h_ | 
+| Introduction | Pimp mon système | **_Installation Flutter - Intégration IDE - binaires - Analyzers_** | _1 h 10 min_ | 
 | | | Installation et IDE | 15 min |
 | | | pubspec.yaml | 10 min |
 | | | static analysis et linting | 15 min |
 | | | La default app, ça compte | 20 min |
-| | | La Dart VM aussi | |
+| | | La Dart VM aussi | 10 min |
 | Dart | Un langage fortement typé ? | **_Types Dart - Null safety_** | _35 min_ |
 | | | Le grand méchant "var" | 15 min |
 | | | Tout est "Object" | 10 min |
@@ -32,3 +32,5 @@
 | Contexte | Chapitre | Sujets abordés | Temps |
 |:------:|:-------- | -------------- |:-----:|
 | Flutter | L'application par défaut | Visite guidée | 30 min |
+| | | Les bonnes pratiques du theming | 10 min |
+
