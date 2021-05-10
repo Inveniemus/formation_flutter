@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  // On crée cette méthode sur le même modèle que l'incrément
   void _decrementCounter() {
     setState(() {
       _counter--;
@@ -109,20 +110,21 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
+        // On met une Row dans le placeholder du FloatingActionButton
+        mainAxisAlignment: MainAxisAlignment.center, // On centre le contenu de la Row
         children: [
           FloatingActionButton(
             onPressed: _incrementCounter,
             tooltip: 'Increment',
             child: Icon(Icons.add),
           ),
-          FloatingActionButton(
+          FloatingActionButton( // On crée le bouton de décrémentation
             onPressed: _decrementCounter,
             tooltip: 'Decrement',
             child: Icon(Icons.exposure_minus_1),
           ),
         ],
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }
